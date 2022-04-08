@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --font: 'Jost', sans-serif;
+    --font2: 'Kite One', sans-serif;
+}
+
+/* elementos base */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--preto);
+    font-family: var(--font1);
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    color: #e50914c9;
+    font-family: var(--font2);
+    font-size: 2.7em;
+    margin-left: 6px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 7px;
+    font-size: 1.2em;
+}
+
+header nav a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* principal */
+
+.principal{
+    margin-top: 20px;
+    font-size: 1.4em;
+
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%),url(img/senna.jpg);
+   
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.principal .container{
+    width: 80%;
+}
+
+.title{
+    font-size: 2.9em;
+    font-family: var(--font);
+}
+
+.title-main{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #141414,#c21019e8);
+    color: #fff;
+    font-size: 3.0em;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.descricao{
+ margin-bottom: 30px;
+ font-size: 1em;
+ font-family: var(--font);
+}
+
+.botao{
+    background-color: rgba( 0, 0, 0, .50);
+    border: none;
+    color: #fff;
+    
+    padding: 15px 30px;
+    margin-left: 15px;
+    font-size: 0.55em;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #141414;
+    transition: 0.6s;
+}
+
+
+.botao i{
+    margin-left: 8px;
+}
+
+
+.box-equipes{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+.box-pilotos{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+.box-corridas{
+    height: 250px;
+    width: 100%;
+    display: block;
+}
+
+.descricao-p{
+    margin-top: 7px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: var(--font2);
+}
+
+div.botoes a{
+    text-decoration: none;
+}
+ 
